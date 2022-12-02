@@ -1,5 +1,5 @@
 #!/bin/python3
-# code for https://adventofcode.com/2022/day/2 problem 1
+# code for https://adventofcode.com/2022/day/2 problem 2
 
 # imports
 from enum import Enum
