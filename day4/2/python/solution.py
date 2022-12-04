@@ -24,10 +24,10 @@ def main():
 
         # check for overlap
         # is the start of the second range contained in the first?
-        if start2 >= start1 and start2 <= end1:
+        if start1 <= start2 <= end1:
             has_overlap = True
         # is the start of the first range contained in the second?
-        elif start1 >= start2 and start1 <= end2:
+        elif start2 <= start1 <= end2:
             has_overlap = True
         else:
             has_overlap = False
