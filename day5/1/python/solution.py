@@ -42,7 +42,7 @@ def main():
 
         # move crates according to the numbers
         starting_stack = stacks[starting_stack_index]
-        ending_stack = stacks[ending_stack_indx]
+        ending_stack = stacks[ending_stack_index]
         for _ in range(num_crates):
             cur_crate = starting_stack.pop()
             ending_stack.append(cur_crate)
