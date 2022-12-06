@@ -85,7 +85,6 @@ fn main() {
 
     // read our input from a file
     let data = fs::read_to_string(INPUT_FILE).unwrap();
-    let data = String::from(data);
     let data = data.trim();
 
     // split our input into games and iterate over them
